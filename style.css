@@ -1,0 +1,66 @@
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1.2fr 0.8fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 40px 40px; 
+    grid-template-areas: 
+      "area1 area1 area2 area2"
+      "area3 area4 area8 area9"
+      "area5 area5 area8 area10"
+      "area6 area7 area11 area11"; 
+  }
+  .area1 { grid-area: area1; }
+  .area2 { grid-area: area2; }
+  .area3 { grid-area: area3; }
+  .area4 { grid-area: area4; }
+  .area5 { grid-area: area5; }
+  .area6 { grid-area: area6; }
+  .area7 { grid-area: area7; }
+  .area8 { grid-area: area8; }
+  .area9 { grid-area: area9; }
+  .area10 { grid-area: area10; }
+  .area11 { grid-area: area11; }
+
+  .area1{
+    margin-left: 40%;
+  }
+  .area2{
+    margin-left: -4%;
+  }
+  .area3{
+    margin-left: 85%;
+    margin-top: -19%;
+  }
+  .area4{
+    margin-left: 23%;
+    margin-top: -19%;
+  }
+  .area5{
+    margin-left: 40%;
+    margin-top: -6%;
+  }
+  .area6{
+    margin-left: 85%;
+    margin-top: -22%;
+  }
+  .area7{
+    margin-left: 28%;
+    margin-top: -22%;
+  }
+  .area8{
+    margin-left: -24%;
+    margin-top: -16%;
+  }
+  .area9{
+    margin-left: -109%;
+    margin-top: -24%;
+  }
+  .area10{
+    margin-left: -104%;
+    margin-top: -45%;
+  }
+  .area11{
+    margin-left: -8%;
+    margin-top: -16%;
+  }
+  
